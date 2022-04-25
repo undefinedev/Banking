@@ -48,11 +48,11 @@ install(
 
 install(
         FILES Account.h
-        DESTINATION "${include_install_dir}"
+        DESTINATION "${include_install_dir}/banking"
 )
 install(
         FILES Transaction.h
-        DESTINATION "${include_install_dir}"
+        DESTINATION "${include_install_dir}/banking"
 )
 
 install(
